@@ -1,0 +1,11 @@
+body{
+    background: #e2dbdb;
+}
+#lista-aulas{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+a{
+    font-size: 25px;
+    text-decoration: none;
+}
