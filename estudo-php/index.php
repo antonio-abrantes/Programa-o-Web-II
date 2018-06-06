@@ -12,27 +12,13 @@
     <div id="lista-aulas">
         <a href="aula-01.html">Aula 01</a>
     </div>
-    <?php echo "<p>Olá Mundo</p>"; ?>
     <div>
-    <hr>
-    <h3>Meus pacontes</h3>
-    beautfy
-    Apache Conf
-    Git History
-    CSS Auto Prefix
-    IntelliJ IDEA
-    IntelliSense for CSS Class name in HTML
-    JavaScript and TypeScript IntelliSense
-    Path Intellisense
-    PHP IntelliSense
-    Scss IntelliSense
-    Sort JSON Objects
-    XML Tools
-    </div>
     <hr>
     <div>
     <h3>Meus plugins</h3>
     <p>
+    Git History - Don Jayamanne, 
+    Beautify - HookyQR, 
     Auto Close Tag - Jun Han, 
     Color Info - Matt Bierner, 
     CSS Auto Frefix - sporiley, 
@@ -42,18 +28,26 @@
     IntelliJ IDEA Keybindings - Keisuke Kato, 
     IntelliSense for CSS class names in HTML - Zignd, 
     JavaScript(ES6) code snippets - charalampos karypidis, 
-    JavaScript adn TypeScript IntelliSense - Sourcegraph, 
+    JavaScript and TypeScript IntelliSense - Sourcegraph,
+    JavaScrip Standart Style - Sam Chen, 
     JSON Tools - Erik Lynd, 
     Open in browser - TechER, 
-    Path Intellisense - Christian Kohler,
-    PHP Debug - Felix Becker,
-    PHP DocBlocker - Neil Brayfield,
-    Prettier: Code formatter - Esben Petersen,
-    SCSS IntelliSense - mrmlnc,
-    Sort JSON objects - ricgie5um2,
-    SVG - jock,
-    XML Tools - Josh Johnson,
-    XML Tools - Qub
+    TSLint - egamma, 
+    Path Intellisense - Christian Kohler, 
+    Apache Conf - mrmlnc, 
+    PHP IntelliSense - Felix Becker, 
+    PHP Debug - Felix Becker, 
+    PHP DocBlocker - Neil Brayfield, 
+    Prettier: Code formatter - Esben Petersen, 
+    SCSS IntelliSense - mrmlnc, 
+    Sort JSON objects - ricgie5um2, 
+    SVG - jock, 
+    XML Formatter - Fabian Lauer, 
+    XML Tools - Josh Johnson(Em uso), 
+    XML Tools - Qub, 
+    Python - Microsoft, 
+    Python for VSCode - Thomas Haakon Townsend, 
+    Font-awesome codes for html(snippets) - medzhidnov
     </p>
     </div>
 </body>
