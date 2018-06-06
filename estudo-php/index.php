@@ -29,5 +29,32 @@
     Sort JSON Objects
     XML Tools
     </div>
+    <hr>
+    <div>
+    <h3>Meus plugins</h3>
+    <p>
+    Auto Close Tag - Jun Han, 
+    Color Info - Matt Bierner, 
+    CSS Auto Frefix - sporiley, 
+    CSS Peek - Pranay Prakash, 
+    HTML CSS Suport - ecmel, 
+    HTML Snippets - Mohamed Abusaid, 
+    IntelliJ IDEA Keybindings - Keisuke Kato, 
+    IntelliSense for CSS class names in HTML - Zignd, 
+    JavaScript(ES6) code snippets - charalampos karypidis, 
+    JavaScript adn TypeScript IntelliSense - Sourcegraph, 
+    JSON Tools - Erik Lynd, 
+    Open in browser - TechER, 
+    Path Intellisense - Christian Kohler,
+    PHP Debug - Felix Becker,
+    PHP DocBlocker - Neil Brayfield,
+    Prettier: Code formatter - Esben Petersen,
+    SCSS IntelliSense - mrmlnc,
+    Sort JSON objects - ricgie5um2,
+    SVG - jock,
+    XML Tools - Josh Johnson,
+    XML Tools - Qub
+    </p>
+    </div>
 </body>
 </html>
