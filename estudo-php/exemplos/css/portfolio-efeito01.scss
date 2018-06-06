@@ -1,0 +1,59 @@
+$w: 300px;
+$h: 200px;
+
+.box {
+  display: inline-block;
+  width: $w;
+  height: $h;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  transition: all 150ms linear;
+  margin: 0;
+  margin-right: 10px;
+  padding: 0;
+  cursor: crosshair;
+  
+  &::before {
+    content: "";
+    width: $w;
+    height: $h;
+    background: rgba(0,0,0,0);
+    transition: all 300ms linear;
+  }
+  
+  &:hover {
+      transform: scale(1.05);
+    
+      &::before {
+      content: "";
+      width: $w;
+      height: $h;
+      background: rgba(0,0,0,.6);
+      position: absolute;
+      z-index: 100;
+    }
+    
+    h3 {
+      top: 50%;
+      opacity: 1;
+      margin-top: -0.3em;
+    }
+  }
+  
+  h3 {
+    transition: all 300ms linear;
+    position: absolute;
+    top: 55%;
+    line-height: 1em;
+    text-align: center;
+    width: $w;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -12,9 +12,22 @@
     <div id="lista-aulas">
         <a href="aula-01.html">Aula 01</a>
     </div>
+    <?php echo "<p>Olá Mundo</p>"; ?>
+    <div>
+    <hr>
+    <h3>Meus pacontes</h3>
+    beautfy
+    Apache Conf
+    Git History
+    CSS Auto Prefix
+    IntelliJ IDEA
+    IntelliSense for CSS Class name in HTML
+    JavaScript and TypeScript IntelliSense
+    Path Intellisense
+    PHP IntelliSense
+    Scss IntelliSense
+    Sort JSON Objects
+    XML Tools
+    </div>
 </body>
 </html>
-
-<?php 
-    
-?>
