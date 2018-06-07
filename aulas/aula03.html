@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/js-aula03.js"></script>
+    <title>Aula 03</title>
+</head>
+<body>
+    <h1>Aula 3 - JavaScript</h1>
+    <hr>
+
+    <input type="button" name="botao" id="botao" value="CONFIRMA" onclick="funcao()">
+    
+    <script>
+        var msg = "Ola mundo!!";
+
+        console.log(msg);
+
+        document.write(msg);
+
+        function funcao(){
+            var x;
+            var confirma = confirm("Sim ou Não?");
+            
+            if(confirma == true){
+                x = "Clicou em OK";
+            }else{
+                x = "Clicou em não!";
+            }
+            console.log(x);
+        }
+
+    </script>
+    
+
+    <footer>
+        <hr>
+        <a class="botao" href="../index.html">Voltar</a><br>
+
+        <div style="margin: 0 auto; width: 20%; text-align: center; font-family: Verdana">
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script><span> AADeveloper</span>
+        </div>
+    </footer>
+</body>
+</html>

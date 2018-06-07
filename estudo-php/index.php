@@ -50,5 +50,16 @@
     Font-awesome codes for html(snippets) - medzhidnov
     </p>
     </div>
+
+
+    <footer>
+    <hr>
+        <div style="margin: 0 auto; width: 20%; text-align: center; font-family: Verdana">
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script><span> AADeveloper</span>
+        </div>
+    </footer>
 </body>
 </html>
