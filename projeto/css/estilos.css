@@ -1,0 +1,62 @@
+/*referencia:
+    http://wime.com.br/2015/08/21/8-efeitos-de-transicao-em-css3-css3-transitions/
+*/
+#conteudo a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#conteudo{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.botao{
+    text-decoration: none;
+    color: #2165b8;
+    /*-webkit-transition: 0.5s ease-in;*/
+    /*-moz-transition: 0.5s ease-in;*/
+    /*-o-transition: 0.5s ease-in;*/
+    /*transition: 0.5s ease-in;*/
+    transition:all 0.3s ease;
+}
+.botao:hover{
+    font-size: 17px;
+    color: white;
+    background-color: #0a4d74;
+    padding: 6px;
+    border-radius: 5px 5px 5px 5px;
+    transition:all 0.5s ease;
+    /*-webkit-transition: 0.5s ease-in;*/
+    /*-moz-transition: 0.5s ease-in;*/
+    /*-o-transition: 0.5s ease-in;*/
+    /*transition: 0.5s ease-in;*/
+}
+
+footer{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#cadastro{
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.txt{
+   border-radius: 5px;
+   background-color: #d3d3d3;
+   height: 25px; 
+   border-style: hidden;
+}
+#gravar{
+    padding: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+    width: 100px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 125px;
+}
