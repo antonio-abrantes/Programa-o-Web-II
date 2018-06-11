@@ -8,21 +8,47 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+    <nav>
+        <ul id="menu-principal" style="display: inline">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">O Lugar</a></li>
+            <li><a href="#">Nossos Drinks</a></li>
+            <li><a href="#">Endereço</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div id="banner">
+            <img src="images/logo.png" alt="">    
+        </div>
+    </header>
 
-    <h1>Projeto Web</h1>
-    <hr>
+    <section id="o-lugar">
+    
+    
+    </section>
 
-    <?php
-        $A = 10;
-        $B = 3;
-        $C = $A % $B;
-        $A .= $B;
-        //print $C;
-        print $A;
+    
+    <section id="nossos-drinks">
+    
+    
+    </section>
 
-    ?>
+<footer id="rodape">
+    <div style="display:flex ">
 
-<footer>
+        <div class="div-rodape">
+            <h3>CONTATO</h3>    
+        </div>
+
+        <div class="div-rodape">
+            <h3>ENDEREÇO</h3>
+        </div>
+
+        <div class="div-rodape">
+            <h3>FUNCIONAMENTO</h3>
+        </div>
+
+    </div>
     <hr>
     <div style="margin: 0 auto; width: 20%; text-align: center; font-family: Verdana">
             &copy;
