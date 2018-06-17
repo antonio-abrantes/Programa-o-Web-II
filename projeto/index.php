@@ -5,57 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Projeto</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/proj-style.css">
+<!--    <link rel="stylesheet" href="css/estilos.css">-->
 </head>
 <body>
-    <nav>
-        <ul id="menu-principal" style="display: inline">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">O Lugar</a></li>
-            <li><a href="#">Nossos Drinks</a></li>
-            <li><a href="#">Endereço</a></li>
+
+<header class="main-header">
+    <i class="ancora" id="header"></i>
+    <video class="header-video" src="videos/copo_cerveja.mp4" autoplay muted loop></video>
+
+    <nav class="navigation">
+        <ul class="navigation-list">
+            <li class="navigation-list-item">
+                <a class="navigation-link" href="#header">Home</a>
+            </li>
+            <li class="navigation-list-item">
+                <a class="navigation-link" href="#lugar">O Lugar</a>
+            </li>
+            <li class="navigation-list-item">
+                <a class="navigation-link" href="#drinks">Nossos Drinks</a>
+            </li>
+            <li class="navigation-list-item">
+                <a class="navigation-link" href="#footer">Endereço</a>
+            </li>
         </ul>
     </nav>
-    <header>
-        <div id="banner">
-            <img src="images/logo.png" alt="">    
-        </div>
-    </header>
+    <img class="logo" src="images/logo.png" alt="">
+</header>
 
-    <section id="o-lugar">
-    
-    
-    </section>
-
-    
-    <section id="nossos-drinks">
-    
-    
-    </section>
-
-<footer id="rodape">
-    <div style="display:flex ">
-
-        <div class="div-rodape">
-            <h3>CONTATO</h3>    
-        </div>
-
-        <div class="div-rodape">
-            <h3>ENDEREÇO</h3>
-        </div>
-
-        <div class="div-rodape">
-            <h3>FUNCIONAMENTO</h3>
-        </div>
-
+<section class="lugar section-background">
+    <i class="ancora" id="lugar"></i>
+    <div class="section-container">
+        <h1 class="section-title">O Lugar</h1>
+        <p class="section-text">
+            Etiam eu risus ut enim condimentum porttitor nec nec dui. Nam volutpat facilisis dolor in eleifend. Quisque tempor ligula sem, sit amet dictum nunc efficitur quis. Aenean at efficitur justo. Aliquam imperdiet lacinia nisi, ac suscipit neque congue eget. Maecenas posuere faucibus dui ac blandit. Praesent eget dignissim erat, id facilisis augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus, libero id lobortis molestie, libero est porttitor eros, et scelerisque purus elit nec ex. Vestibulum viverra diam eget quam tristique, sed fermentum tortor facilisis. Aliquam non ultricies metus. Nulla cursus posuere lorem, quis tempor eros varius id. Sed sollicitudin ante ut leo fermentum auctor. Ut commodo lectus justo, a porttitor nulla viverra in.
+        </p>
     </div>
-    <hr>
-    <div style="margin: 0 auto; width: 20%; text-align: center; font-family: Verdana">
-            &copy;
-            <script>
-                document.write(new Date().getFullYear())
-            </script><span> AADeveloper</span>
+</section>
+
+
+<section class="drinks section-background">
+    <i class="ancora" id="drinks"></i>
+    <div class="section-container">
+        <h1 class="section-title">Nossos Drinks</h1>
+        <img class="drink-image" src="./images/cocktails.jpg" alt="">
+        <p class="section-text">
+            Etiam eu risus ut enim condimentum porttitor nec nec dui. Nam volutpat facilisis dolor in eleifend. Quisque tempor ligula sem, sit amet dictum nunc efficitur quis. Aenean at efficitur justo. Aliquam imperdiet lacinia nisi, ac suscipit neque congue eget. Maecenas posuere faucibus dui ac blandit. Praesent eget dignissim erat, id facilisis augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum rhoncus, libero id lobortis molestie, libero est porttitor eros, et scelerisque purus elit nec ex. Vestibulum viverra diam eget quam tristique, sed fermentum tortor facilisis. Aliquam non ultricies metus. Nulla cursus posuere lorem, quis tempor eros varius id. Sed sollicitudin ante ut leo fermentum auctor. Ut commodo lectus justo, a porttitor nulla viverra in.
+        </p>
+    </div>
+</section>
+
+<footer class="main-footer">
+    <i class="ancora" id="footer"></i>
+    <div>
+        <section class="footer-section">
+            <h1>Contato</h1>
+            <p>(XX) XXXX-XXXX</p>
+            <p>teste@hotmail.com</p>
+        </section>
+
+        <section class="footer-section">
+            <h1>Endereço</h1>
+            <p>A. das Flores, nº 09</p>
+            <p>Sousa-PB</p>
+        </section>
+
+        <section class="footer-section">
+            <h1>Funcionamento</h1>
+            <p>Segunda a Sexta<br>
+                17:00 - 01:00
+            </p>
+            <p>Sabados e Feriados<br>
+                16:00 - 04:00
+            </p>
+        </section>
     </div>
 </footer>
+
 </body>
 </html>
