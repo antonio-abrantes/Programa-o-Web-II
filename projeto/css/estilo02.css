@@ -43,3 +43,25 @@ html, body{
 .header-nav-ul-link:hover{
     color: #0a4d74;
 }
+
+.my-footer{
+    position: relative;
+    padding: 10px;
+}
+
+.my-footer div{
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer-section{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    min-width: 230px;
+}
+.footer-section h1, p{
+    margin-left: 30px;
+}
+
